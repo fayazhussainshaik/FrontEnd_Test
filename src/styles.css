@@ -1,0 +1,380 @@
+.App {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: start;
+}
+.main {
+  display: flex;
+  /* border: 1px solid red; */
+  width: 1530px;
+  height: 1100px;
+}
+.left {
+  /* border: 1px solid blue; */
+  box-shadow: 0px 1px 10px #00000029;
+  width: 75px;
+  height: 1050px;
+  text-align: center;
+  padding-top: 50px;
+  background-color: #112949;
+}
+.left-colors {
+  text-align: center;
+  margin: 18px;
+  width: 40px;
+  height: 40px;
+  background-color: #eb9cba;
+}
+
+.middle {
+  /* border: 1px solid green; */
+  box-shadow: 0px 1px 10px #00000029;
+  width: 440px;
+  height: 800px;
+}
+.Search img {
+  height: 32px;
+}
+.scroll img {
+  height: 37px;
+}
+.companyarea {
+  width: 440px;
+  height: 956px;
+  background-color: #fff;
+  cursor: pointer;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+.companydata {
+  /* border: 1px solid rgb(7, 7, 7); */
+  box-shadow: 0px 1px 10px #00000029;
+  margin: 10px;
+  border-radius: 10px;
+}
+.companydata:hover {
+  background-color: #2172db;
+}
+.company {
+  display: flex;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  font-weight: bold;
+  color: #112949;
+}
+.companyname {
+  padding-left: 15px;
+  padding-right: 200px;
+}
+.entities {
+  color: #112949;
+  font-weight: lighter;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 250px;
+}
+
+.profile {
+  /* border: 2px solid rgb(228, 209, 212); */
+  box-shadow: 0px 1px 10px #00000029;
+  /* border-radius: 7px; */
+  width: 1007px;
+  height: 65px;
+}
+.rectangle {
+  background-color: #ffffff;
+}
+.profilepic {
+  float: right;
+}
+.profilepic img {
+  padding: 13px;
+  width: 130px;
+}
+
+.companyinfos {
+  margin-top: 1.5px;
+  /* border: 1px solid #e0d8e0f3; */
+  box-shadow: 0px 1px 10px #00000029;
+  width: 1007px;
+  height: 200px;
+}
+.infos img {
+  /* margin-left:10px; */
+  /* margin-top:10px; */
+  width: 35px;
+  padding: 2px;
+}
+.infoname {
+  /* border: 1px solid lightcoral; */
+  display: inline;
+}
+.infos button {
+  font-family: bold;
+  border-radius: 10px;
+  background-color: #3cc3f2;
+  width: 110px;
+  height: 35px;
+  margin-left: 490px;
+}
+.logcode {
+  display: inline-block;
+}
+.cmpcode {
+  /* border: 1px solid purple; */
+  width: 100px;
+  padding: 10px;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.domain {
+  /* border: 1px solid purple; */
+  width: 133px;
+  margin-top: -120px;
+  margin-left: 400px;
+}
+.entidata {
+  width: 1007px;
+  height: 32px;
+  box-shadow: 0px 1px 6px #00000029;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+}
+.enti1 {
+  margin-left: 13px;
+  text-decoration: underline 4px solid black;
+}
+
+.enti2 {
+  margin-left: 16px;
+}
+
+.entiDesc {
+  /* border: 1px solid orange; */
+  box-shadow: 1px 1px 3px #00000029;
+  border-radius: 12px;
+  padding-top: 15px;
+  margin: 8px;
+  width: 998px;
+  height: 760px;
+  background-color: #ebf2f5;
+}
+.entities4 {
+  margin-left: 30px;
+}
+.add {
+  margin-left: 850px;
+}
+.add img {
+  width: 35px;
+  height: 40px;
+}
+
+.heading {
+  margin-left: 18px;
+  margin-top: 12px;
+}
+.BillingLocation {
+  color: #707070;
+  margin-left: 20px;
+}
+.EntityName {
+  color: #707070;
+  margin-left: 180px;
+}
+.EntityCode {
+  color: #707070;
+  margin-left: 100px;
+}
+.MSLAValid {
+  color: #707070;
+  margin-left: 107px;
+}
+
+.FileSharing {
+  color: #707070;
+  margin-left: 70px;
+}
+
+.DescArea {
+  margin-top: 10px;
+  width: 960px;
+  height: 550px;
+  background: #f7fbfc 0% 0% no-repeat padding-box;
+  box-shadow: 1px 1px 3px #00000029;
+  border-radius: 8px;
+}
+
+.internalContents {
+  width: 960px;
+  height: 50px;
+  background: #f7fbfc 0% 0% no-repeat padding-box;
+  box-shadow: 1px 1px 3px #00000029;
+  border-radius: 8px 8px 0px 0px;
+  font-size: 15px;
+  color: #112949;
+}
+.riyadh1 {
+  margin-left: 10px;
+}
+.riyadh2 {
+  margin-left: 85px;
+}
+.riyadh3 {
+  margin-left: 15px;
+}
+.riyadh4 {
+  margin-left: 130px;
+}
+.riyadh5 {
+  margin-left: 50px;
+}
+.postaladdress {
+  width: 240px;
+  margin-left: 32px;
+  margin-top: 10px;
+  /* border: 1px solid pink; */
+}
+
+.AdressLocation {
+  display: inline-flex;
+  font-size: 15px;
+}
+.address {
+  color: #707070;
+}
+.address1 {
+  color: #112949;
+}
+.ChargeCodePoNo {
+  margin-top: 17px;
+}
+
+.Ccode {
+  color: #707070;
+}
+.required {
+  color: #112949;
+}
+.lucasfilm {
+  color: #707070;
+  /* padding: 10px; */
+}
+.lucasfilm1 {
+  color: #112949;
+  /* padding: 10px; */
+}
+.view img {
+  width: 60px;
+  height: 30px;
+}
+.CompVal {
+  margin-left: 120px;
+  margin-top: 10px;
+  padding: 2px;
+}
+.comreg {
+  color: #707070;
+}
+.comreg1 {
+  color: #112949;
+}
+.DurationOfStorage {
+  margin-top: 16px;
+}
+
+.TaxRegistrationNoTRN {
+  margin-left: 180px;
+  margin-top: 10px;
+}
+.trnvalidity {
+  margin-top: 17px;
+}
+.currency {
+  margin-top: 17px;
+}
+.VatWht {
+  margin-top: 17px;
+}
+.Corporateprice {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.servicesUnits {
+  width: 900px;
+  height: 220px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 1px 1px 3px #00000029;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+.service1 {
+  color: #707070;
+  padding: 2px;
+  margin-left: 10px;
+}
+.service2 {
+  color: #707070;
+  padding: 2px;
+  margin-left: 250px;
+}
+.service3 {
+  color: #707070;
+  padding: 2px;
+  margin-left: 80px;
+}
+.datainformation {
+  background: #f7fbfc 0% 0% no-repeat padding-box;
+  box-shadow: 1px 1px 3px #00000029;
+  margin: 3px;
+  width: 890px;
+  height: 60px;
+  border-radius: 5px;
+}
+.dtainfo {
+  color: #112949;
+  margin-left: 10px;
+}
+.dtainfo1 {
+  color: #112949;
+  margin-left: 25px;
+}
+.dtainfo2 {
+  color: #112949;
+  margin-left: 80px;
+}
+.dtainfo3 {
+  color: #112949;
+  margin-left: 90px;
+}
+.dtainfo4 {
+  color: #112949;
+  margin-left: 105px;
+}
+.anComp {
+  width: 960px;
+  height: 40px;
+  background: #f7fbfc 0% 0% no-repeat padding-box;
+  box-shadow: 1px 1px 3px #00000029;
+  border-radius: 8px;
+  margin-top: 16px;
+  margin-left: 2px;
+  color: #ea7b2c;
+}
+
+.other {
+  width: 960px;
+  height: 40px;
+  background: #f7fbfc 0% 0% no-repeat padding-box;
+  box-shadow: 1px 1px 3px #00000029;
+  border-radius: 8px;
+  margin-top: 16px;
+  margin-left: 2px;
+}
